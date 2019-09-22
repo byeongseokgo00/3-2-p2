@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3wk</title>
+	<style type="text/css">
+		#mybody {background-color: black; position: relative; height: 100px;}
+		#thanos {width: 1080px; position: absolute; margin-top: 100px; transition: all 5s;}
+		h2 {text-align: center; color:white; position: absolute; margin-top:230px; margin-left: 950px;}
+
+		#tp {text-align: center; color: white; position: absolute; margin-top:280px; margin-left: 950px;}
+		#tp2 {text-align: center; color: white; position: absolute; margin-top:300px; margin-left: 950px;}
+		.but {background-color: purple; color: white; border-radius: 20px; font-size:15px; position: absolute; margin-top:340px; margin-left: 950px;}
+		.but2 {background-color: purple; color: white; border-radius: 20px; font-size:15px; position: absolute; margin-top:340px; margin-left: 1000px;}
+		#tn {width: 485px; position: absolute; left:450px; margin-top:100px; transition: all 24s;}
+		#ds {width: 150px; position: absolute; margin-top: 200px; left:180px; transition: all 14s;}
+		#hk {width: 150px; position: absolute; margin-top: 400px; left:1000px; transition: all 12s;}
+		#bp {width: 150px; position: absolute; margin-top: 573px; left:300px; transition: all 8s;}
+		#ir {width: 150px; position: absolute; margin-top: 580px; left:800px; transition: all 6s;}
+		#irm {width: 150px; position: absolute; margin-top: 30px; left:900px; transition: all 36s;}
+		#bw {width: 150px; position: absolute; margin-top: 230px; left:1050px; transition: all 36s;}
+		#ca {width: 150px; position: absolute; margin-top: 450px; left:100px; transition: all 36s;}
+		#thr {width: 150px; position: absolute; margin-top: 30px; left:300px; transition: all 36s;}
+		#cm {width: 150px; position: absolute; margin-top: 30px; left:1100px; transition: all 12s;}
+		#sm {width: 150px; position: absolute; margin-top: 580px; left:1150px; transition: all 38s;}
+		#ed {width: 500px; position: absolute; margin-top:300px; left: -600px; transition: all 30s;}
+		#edt {text-align: center; color: white; position: absolute;}
+	</style>
+</head>
+<body id="mybody">
+	<div id="bd" style="transition: all 1.5s;">
+	<img src="thanos.png" id="thanos">
+	<h2>Hello, World!</h2>
+	<p id="tp">I'm Thanos.</p>
+	<p id="tp2">Do you want to clean up the world with me?</p>
+
+	<input type="button" class="but" value="Yes" onclick="alert('Click, Thanos!!');">
+	<input type="button" class="but2" value="NO" onclick="alert('YOU DONT HAVE TO PERMISSION TO CHOOSE')">
+	</div>
+
+	<audio id="isound">
+		<source src="infinity.mp3" type="audio/wav">
+	</audio>
+
+	<div id="tn"></div>
+	<div id="hd"></div>
+	<div id="ds"></div>
+	<div id="hk"></div>
+	<div id="bp"></div>
+	<div id="ir"></div>
+	<div id="irm"></div>
+	<div id="bw"></div>
+	<div id="ca"></div>
+	<div id="thr"></div>
+	<div id="cm"></div>
+	<div id="sm"></div>
+
+	<div id="tha"></div>
+
+	<audio id="hsound">
+		<source src="snap.mp3" type="audio/wav">
+	</audio>
+
+	<audio id="msound">
+		<source src="moonlight.mp3" type="audio/wav">
+	</audio>
+
+	<div id="ed"></div>
+		<p id="edt" style="transition: all 46s; opacity: 0; margin-top: 200px; top:200px; left:300px; line-height: 1.5;">In Avengers: Infinity War,<br>Thanos talks at length about how overpopulation and overconsumption has thrown<br>the universe out of balance, and how half of<br>all life must be destroyed in order to restore the equilibrium.<br><br>
+		As evidence for this, he cites his own world of Titan,<br>once prosperous, now desolate, and described how his plan to randomly kill half of<br>the population would have saved them. He also points to the worlds he's conquered,<br>which are now apparently thriving.<br><br>
+		All of this makes it seem like Thanos wants the Infinity Stones so that<br>he can save the universe, so that he can save the people of the universe from themselves.<br><br>
+		But I don't think that's true. With the Stones,<br>Thanos has nigh-omnipotent power. He could have doubled resources instead of halving the population, for example,<br>or sterilized half of the universe, which would gradually bring population numbers down without killing anybody.<br><br>
+		But he didn't do that. Why? Not due to lack of creativity, but out of spite.<br><br>
+		Thanos was furious that his plan to save Titan was ignored, and he viewed<br>the universe at large as a mass of greedy, selfish, base creatures.<br>They didn't deserve to be saved. So instead,<br>Thanos used the Infinity Gauntlet to punish them,<br>and to teach them a lesson about their own avarice.</p><br>
+	</div>
+	<script type="text/javascript">
+		thanos.onclick = function(){
+			thanos.style.display = "none";
+			isound.play();
+			mybody.style.background = "url('planet.gif')"
+			mybody.style.backgroundSize = "120px auto";
+			bd.style.opacity = "0";
+			tn.style.background = "url('tn.png')"
+			tn.style.height = "550px";
+			ds.style.background = "url('ds.png')"
+			ds.style.height = "210px";
+			hk.style.background = "url('hk.png')"
+			hk.style.height = "200px";
+			bp.style.background ="url('bp.png')"
+			bp.style.height = "185px";
+			ir.style.background = "url('ir.png')"
+			ir.style.height = "175px";
+			irm.style.background = "url('irm.png')"
+			irm.style.height = "165px";
+			bw.style.background = "url('bw.png')"
+			bw.style.height = "130px";
+			ca.style.background = "url('ca.png')"
+			ca.style.height = "230px";
+			thr.style.background = "url('thr.png')"
+			thr.style.height = "220px";	
+			cm.style.background = "url('cm.png')"
+			cm.style.height = "220px";
+			sm.style.background = "url('sm.png')"
+			sm.style.height = "180px";					
+		}
+
+		tn.onclick = function(){
+			hsound.play();
+			bp.style.opacity = "0";
+			hk.style.opacity = "0";
+			ds.style.opacity = "0";
+			ir.style.opacity = "0";
+			cm.style.opacity = "0";
+			mybody.style.background = "url('farm.jpg')"
+			mybody.style.backgroundSize = "1700px auto";
+			isound.pause();
+			tn.style.opacity = "0";
+			msound.play();
+			ed.style.background = "url('end.gif')"
+			ed.style.height = "347px";
+			ed.style.left = "480px";
+			thr.style.opacity = "0";
+			ca.style.opacity = "0";
+			bw.style.opacity = "0";
+			irm.style.opacity = "0";
+			sm.style.opacity = "0";
+			edt.style.opacity = "1";
+			edt.style.top = "0px";
+		}
+	</script>
+
+</body>
+</html>
